@@ -1,6 +1,6 @@
 <ul>
-    <li><a href="about.php">Over Mij</a></li>
-    <li><a href="projects.php">Projecten</a></li>
-    <li><a href="kerntaken.php">Kerntaken</a></li>
-    <li><a href="contact.php">Contact</a></li>
+    <li><a href="/groep4/MessyCoderChallenge/about.php">Over Mij</a></li>
+    <li><a href="/groep4/MessyCoderChallenge/projects.php">Projecten</a></li>
+    <li><a href="/groep4/MessyCoderChallenge/kerntaken.php">Kerntaken</a></li>
+    <li><a href="/groep4/MessyCoderChallenge/contact.php">Contact</a></li>
 </ul>

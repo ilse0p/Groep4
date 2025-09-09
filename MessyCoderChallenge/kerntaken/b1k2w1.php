@@ -13,12 +13,7 @@
     <h1><a href=".">Lorenzo von Matterhorn</a></h1>
     <p>Student Software Developer op het Vista College</p>
     <nav>
-      <ul>
-        <li><a href="about.php">Over Mij</a></li>
-        <li><a href="projects.php">Projecten</a></li>
-        <li><a href="kerntaken.php">Kerntaken</a></li>
-        <li><a href="contact.php">Contact</a></li>
-      </ul>
+      <?php require_once("../mainmenu.php"); ?>
     </nav>
     <div class="mountains"></div>
   </header>
