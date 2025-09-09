@@ -172,7 +172,7 @@
   </main>
 
   <footer>
-    © <?php print date('Y')+3; ?> Swarley & CO
+    © <?php print date('Y')+3; ?> Swarley & CO 2025
   </footer>
 
 </body>

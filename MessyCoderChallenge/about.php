@@ -169,7 +169,7 @@
   </main>
 
   <footer>
-    © 2025 Swarley
+    © 2025 Swarley & co
   </footer>
 
 </body>
