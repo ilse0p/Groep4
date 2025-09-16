@@ -27,7 +27,7 @@ require_once ("config.php");
     <h1>Welkom op mijn portfolio!</h1>
   </main>
 
-  <<footer>
+  <footer>
     © <?php print date('Y'); ?> Swarley & CO
   </footer>
 
