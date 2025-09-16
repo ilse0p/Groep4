@@ -1,11 +1,15 @@
+<?php
+require_once ("config.php");
+?>
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <script src="../javascript/script.js"></script> 
-  <title>Lorenzo von Matterhorn - Portofolio</title>
+  <script src="./javascript/script.js"></script>
+  <title>Lorenzo von Matterhorn - Portfolio</title>
   
 </head>
 <body>
@@ -20,11 +24,11 @@
   </header>
 
   <main>
-    <h1>Welkom op mijn portofolio!</h1>
+    <h1>Welkom op mijn portfolio!</h1>
   </main>
 
-  <footer>
-    © 2025 Swarley & co
+  <<footer>
+    © <?php print date('Y'); ?> Swarley & CO
   </footer>
 
 </body>

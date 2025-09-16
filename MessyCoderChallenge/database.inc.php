@@ -1,6 +1,7 @@
-<!-- Hier staan de inloggegevens van de Database -->
-
 <?php
+require_once ("config.php");
+
+
     // dit is de GLOBAL Scope van ons geheugenbeheer //
     // Dit moet nog opgelost worden, dit is een security issue //
     $host = "localhost";

@@ -1,3 +1,6 @@
+<?php
+require_once ("config.php");
+?>
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -24,7 +27,7 @@
   </main>
 
   <footer>
-    © 2025 Swarley & co
+    © <?php print date('Y'); ?> Swarley & CO
   </footer>
 
 </body>

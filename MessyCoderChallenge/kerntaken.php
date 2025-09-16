@@ -1,4 +1,8 @@
 <?php
+require_once ("config.php");
+?>
+
+<?php
   $pathToKerntakenDirectory = "kerntaken/";
 ?>
 
@@ -8,7 +12,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <script src="../javascript/script.js"></script> 
+  <script src="./javascript/script.js"></script> 
   <title>Lorenzo von Matterhorn - Portofolio</title>
 </head>
 <body>
@@ -16,12 +20,9 @@
   <header>
     <h1><a href=".">Lorenzo von Matterhorn</a></h1>
     <p>Student Software Developer op het Vista College</p>
-<ul>
-    <li><a href="../MessyCoderChallenge/about.php">Over Mij</a></li>
-    <li><a href="../MessyCoderChallenge/projects.php">Projecten</a></li>
-    <li><a href="../MessyCoderChallenge/kerntaken.php">Kerntaken</a></li>
-    <li><a href="../MessyCoderChallenge/contact.php">Contact</a></li>
-</ul>
+    <nav>
+      <?php require_once("mainmenu.php"); ?>
+    </nav>
     <div class="mountains"></div>
   </header>
 
@@ -44,7 +45,7 @@
   </main>
 
   <footer>
-    © 2025 Swarley
+    © <?php print date('Y'); ?> Swarley & CO
   </footer>
 
 </body>
