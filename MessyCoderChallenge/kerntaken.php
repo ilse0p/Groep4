@@ -1,11 +1,6 @@
 <?php
-require_once ("config.php");
-?>
-
-<?php
   $pathToKerntakenDirectory = "kerntaken/";
 ?>
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -25,7 +20,6 @@ require_once ("config.php");
     </nav>
     <div class="mountains"></div>
   </header>
-
   <main>
     <h1>Kerntaken</h1>
     <h2>Realiseert Software</h2>
@@ -43,7 +37,6 @@ require_once ("config.php");
       <li><a href="kerntaken/b1k2w3.php">B1-K2-W3 - Evalueert de samenwerking</a></li>
     </ul>
   </main>
-
   <footer>
     © <?php print date('Y'); ?> Swarley & CO
   </footer>

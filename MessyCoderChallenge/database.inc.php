@@ -1,5 +1,4 @@
 <?php
-require_once ("config.php");
 
 
     // dit is de GLOBAL Scope van ons geheugenbeheer //

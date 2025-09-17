@@ -1,7 +1,3 @@
-<?php
-require_once ("config.php");
-?>
-
 <ul>
     <li><a href="/groep4/MessyCoderChallenge/about.php">Over Mij</a></li>
     <li><a href="/groep4/MessyCoderChallenge/projects.php">Projecten</a></li>
